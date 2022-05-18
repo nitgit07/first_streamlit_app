@@ -45,4 +45,4 @@ streamlit.dataframe(my_data_row)
 #Allow the enduser to add a fruit
 add_my_fruit=streamlit.text_input('What fruit would you like to add?', 'Kiwi')
 streamlit.write('Thanks for adding', add_my_fruit)
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('Test')")
+my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('TStreamlit entry')")
